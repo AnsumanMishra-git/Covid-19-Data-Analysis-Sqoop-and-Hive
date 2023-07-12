@@ -14,7 +14,8 @@ Sample Query -For every state, find the total number of confirmed cases reported
 duration of 2months, starting with the state with the highest cases.  
 Dataset- Two csv files are provided -  
 1. StatewiseTestingDetails.csv  
-2. Covid19_india.csv  
+2. Covid19_india.csv
+   
 StatewiseTestingDetails.csv :This dataset contains statewise,daily count of Testing performed in India.  
 Columns : Seq,Date,State,TotalSamples,Negative,Positive  
 
