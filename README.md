@@ -4,11 +4,11 @@
 Aim is to use the Big data tools and technologies for the analysis of the two given datasets based on covid-19 spread in India and the Testing associated with it and try to get some insights.The data is available between 1st -April to 10th June duration. 
 
 ## Detailed Problem Statement:  
-A] Need to create a data flow pipeline ,where data initially resides in RDBMS and needs to be brought to Hive so as to get a consolidated view of covid cases details as well as testing details,taken together in one table.  
-B] Optimizations during sqoop import/export , hive optimizations have to be considered.Also password encryption in sqoop to be used.  
-C] The data field is not in proper format and has to be taken care  
-D.Try to infer from the final consolidated table in Hive like whether there is any discrepency between Number of confirmed covid cases in the state Vs.Number of Positive Samples collected during testing. Which state shows least discrepency.  
-E.Run some more interesting queries from your end in hive to get more insights on the consolidated data .  
+A ] Need to create a data flow pipeline ,where data initially resides in RDBMS and needs to be brought to Hive so as to get a consolidated view of covid cases details as well as testing details,taken together in one table.  
+B ] Optimizations during sqoop import/export , hive optimizations have to be considered.Also password encryption in sqoop to be used.  
+C ] The data field is not in proper format and has to be taken care  
+D ] Try to infer from the final consolidated table in Hive like whether there is any discrepency between Number of confirmed covid cases in the state Vs.Number of Positive Samples collected during testing. Which state shows least discrepency.  
+E ] Run some more interesting queries from your end in hive to get more insights on the consolidated data .  
 
 Sample Query -For every state, find the total number of confirmed cases reported and also total number of positive samples tested,in the entire
 duration of 2months, starting with the state with the highest cases.  
