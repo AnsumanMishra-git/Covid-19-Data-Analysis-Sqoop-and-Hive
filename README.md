@@ -10,9 +10,8 @@ C ] The data field is not in proper format and has to be taken care
 D ] Try to infer from the final consolidated table in Hive like whether there is any discrepency between Number of confirmed covid cases in the state Vs.Number of Positive Samples collected during testing. Which state shows least discrepency.  
 E ] Run some more interesting queries from your end in hive to get more insights on the consolidated data .  
 
-Sample Query -For every state, find the total number of confirmed cases reported and also total number of positive samples tested,in the entire
-duration of 2months, starting with the state with the highest cases.  
-Dataset- Two csv files are provided -  
+Note: If we scan the data we can see the data is cumulative for example TotalSamples shows cumulative total, Confirmed field shows cumulative value.  
+Dataset- Two CSV files are provided -  
 1. StatewiseTestingDetails.csv  
 2. Covid19_india.csv
    
