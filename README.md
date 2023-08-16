@@ -28,3 +28,5 @@ Columns : Sno,Date,State/UnionTerritory,Cured,Deaths,Confirmed
 3. We assume that more data is added to both the tables on a frequent basis.So we need an incremental sqoop job  
 4. More queries on state and dates can come in future so , bucketing and partitioning to be used on these columns.  
 5.We assume that StatewiseTestingDetails.csv is the smaller dataset among the two.
+
+[Link to PDF](https://drive.google.com/file/d/1Sc8iGZGsgOg_fHlJ7jZp2CY6okpzhs59/view?usp=sharing)
